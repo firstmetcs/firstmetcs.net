@@ -22,5 +22,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "./,!.git/,!.github/,!REDEME.md"
+        source: "./,!.git,!.github,!REDEME.md"
         target: "/www/server/nginx/html"
