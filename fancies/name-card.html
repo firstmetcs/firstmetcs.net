@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style type="text/css">
+    @font-face {
+        font-family: Bradleys;
+        src: url('Bradley Hand ITC Std.otf');
+    }
+
+    @media screen and (max-width:480px) {
+        .frame {
+            display: none;
+        }
+
+        .card {
+            transform: rotate(90deg);
+        }
+    }
+
+    @media only screen and (min-width: 480px) {
+        .frame {}
+    }
+
+    html,
+    body {
+        margin: 0;
+        height: 100%;
+    }
+
+    .top {
+        position: relative;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-top: 1px solid;
+    }
+
+    .top::before {
+        content: "";
+        height: 15px;
+        width: 1px;
+        background-color: black;
+        position: absolute;
+        top: -15px;
+        left: 50%;
+    }
+
+    .bottom {
+        position: relative;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+    }
+
+    .bottom::before {
+        content: "";
+        height: 15px;
+        width: 1px;
+        background-color: black;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+    }
+
+    .bottom-plus {
+        position: relative;
+        width: 100%;
+    }
+
+    .bottom-plus::before {
+        content: "";
+        height: 52px;
+        width: 1px;
+        background-color: black;
+        position: absolute;
+        top: -52px;
+        left: -2px;
+    }
+
+    .bottom-plus::after {
+        content: "";
+        height: 52px;
+        width: 1px;
+        background-color: black;
+        position: absolute;
+        top: -52px;
+        right: -2px;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 20px;
+        font-family: Bradleys;
+        font-weight: bold;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        background-image: linear-gradient(200deg, #e0c7e3, #badbe9);
+    }
+
+    .card-content {
+        padding: 20px 40px;
+    }
+    </style>
+</head>
+
+<body>
+    <div style="width: 100%;height: 100%; display: flex; align-items: center; justify-content: center; font-size: 30px; flex-direction: column;">
+        <div style="width: 100%;height: 50%; display: flex; align-items: center; justify-content: center; font-size: 30px; flex-direction: column;">
+            <div class="card">
+                <div class="card-content">
+                    <table>
+                        <tbody>
+                            <tr style="height: 10px;">
+                                <td colspan="2" class="text">me</td>
+                                <td></td>
+                                <td colspan="3" class="text">website</td>
+                            </tr>
+                            <tr style="height: 15px;">
+                            </tr>
+                            <tr style="height: 10px;">
+                                <td class="top" colspan="2"></td>
+                                <td></td>
+                                <td class="top" colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">fancunshuo</td>
+                                <td>@</td>
+                                <td colspan="2">firstmetcs</td>
+                                <td>.net</td>
+                            </tr>
+                            <tr style="height: 10px;">
+                                <td colspan="2"></td>
+                                <td colspan="3" class="bottom"></td>
+                            </tr>
+                            <tr style="height: 15px;">
+                            </tr>
+                            <tr style="height: 10px;">
+                                <td colspan="2"></td>
+                                <td colspan="3" class="text">instagram</td>
+                            </tr>
+                            <tr style="height: 10px;">
+                                <td colspan="6" class="bottom">
+                                    <div class="bottom-plus"></div>
+                                </td>
+                            </tr>
+                            <tr style="height: 15px;">
+                            </tr>
+                            <tr style="height: 10px;">
+                                <td colspan="6" class="text">email</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <iframe src="./card/card.html" style="width: 100%;height: 50%; border: 0px;" class="frame"></iframe>
+    </div>
+</body>
+
+</html>
