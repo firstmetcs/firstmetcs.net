@@ -61,16 +61,16 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
-  background: #ff7f00; }
+  background: royalblue; }
 
 ::-moz-selection {
-  background: #ff7f00; }
+  background: royalblue; }
 
 a {
   text-decoration: none;
-  color: #DF9C81; }
+  color: #81ccdf; }
   a:hover {
-    color: #ff7f00;
+    color: royalblue;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -126,7 +126,7 @@ blockquote {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
   font-size: 1em;
-  border-left: 3px solid #DF9C81;
+  border-left: 3px solid #81ccdf;
   background: white; }
   blockquote p:last-child {
     margin-bottom: 0; }
@@ -150,7 +150,7 @@ ul {
   list-style-type: disc; }
 
 thead tr:first-child {
-  color: #d57c58;
+  color: #58c8d5;
   border: 1px solid #DDDDDD;
   text-align: center; }
 
@@ -193,7 +193,7 @@ table thead tbody {
     .time a:hover,
     .author a:hover,
     .tags a:hover {
-      color: #d06c44; }
+      color: #447cd0; }
 
 .excerpt {
   margin: 0;
@@ -223,7 +223,7 @@ table thead tbody {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  background: #DF9C81;
+  background: #81ccdf;
   border-radius: 3px;
   text-align: center;
   color: #FFF; }
@@ -260,13 +260,13 @@ table thead tbody {
   transition:all .5s; }
 
 .logo:hover {
-  border: 3px solid #FF7F00;
+  border: 3px solid royalblue;
 transition:all .5s;
 transform:rotate(360deg);
--ms-transform:rotate(360deg); 	/* IE 9 */
--moz-transform:rotate(360deg); 	/* Firefox */
+-ms-transform:rotate(360deg);   /* IE 9 */
+-moz-transform:rotate(360deg);  /* Firefox */
 -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
--o-transform:rotate(350deg); 	/* Opera */
+-o-transform:rotate(350deg);  /* Opera */
 }
 
 hr {
@@ -456,29 +456,29 @@ hr {
 
 .btn, .navigation__item a {
   padding: 10px 20px;
-  border: 1px solid #DF9C81;
+  border: 1px solid #81ccdf;
   border-radius: 20px;
   font-size: .9em;
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: none;
-  color: #DF9C81;
+  color: #81ccdf;
   -webkit-font-smoothing: antialiased; }
   .btn:hover, .navigation__item a:hover {
-    color: #d06c44;
-    border-color: #d06c44; }
+    color: #447cd0;
+    border-color: #447cd0; }
 
 .btn-border-small {
-  border: 1px solid #DF9C81;
+  border: 1px solid #81ccdf;
   border-radius: 20px;
   padding: 6px 8px;
   font-size: .8em;
   margin-left: 10px; }
 
 .btn-contribute {
-  border: 1px solid #DF9C81;
+  border: 1px solid #81ccdf;
   border-radius: 8px;
-  background-color: #DF9C81;
+  background-color: #81ccdf;
   padding: 6px 8px;
   font-size: 1.1em;
   color: white;
@@ -549,8 +549,8 @@ nav {
     transition:all .3s }
     .navigation__item a:hover {
       color: #FFF;
-      background:#FF7F00;
-      border-color: #FF7F00;
+      background:royalblue;
+      border-color: royalblue;
       opacity: 1;
       transition:all .3s; }
 
